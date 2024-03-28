@@ -81,3 +81,17 @@ list.c:42:17: error: comparison between pointer and integer [-Werror]
 cc1: all warnings being treated as errors
 Compilation failed
 6cdcc7b
+Thu 28 Mar 2024 02:46:07 PM UTC: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+list.c: In function ‘firstList’:
+list.c:42:17: error: assignment to ‘Node *’ from ‘int’ makes pointer from integer without a cast [-Werror=int-conversion]
+   42 |   if(list->head =! NULL)
+      |                 ^
+list.c:42:6: error: suggest parentheses around assignment used as truth value [-Werror=parentheses]
+   42 |   if(list->head =! NULL)
+      |      ^~~~
+cc1: all warnings being treated as errors
+Compilation failed
+9c2b72f
