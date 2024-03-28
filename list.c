@@ -42,7 +42,6 @@ void * firstList(List * list)
   if(list->current)
   {
     return list->current->data;
-    return NULL;
   }
   return NULL;
 }
