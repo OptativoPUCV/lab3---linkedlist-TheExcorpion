@@ -95,3 +95,9 @@ list.c:42:6: error: suggest parentheses around assignment used as truth value [-
 cc1: all warnings being treated as errors
 Compilation failed
 9c2b72f
+Thu 28 Mar 2024 02:46:19 PM UTC: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  2|5
+total_score: 15/70
+79cdcfc
