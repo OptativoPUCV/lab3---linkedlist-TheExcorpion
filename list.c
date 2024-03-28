@@ -63,10 +63,6 @@ void * nextList(List * list)
     }
   }
 
-
-
-  
-    return NULL;
 }
 
 void * lastList(List * list) {
